@@ -12,7 +12,7 @@ if ((myCity.substring(0, 3).toLowerCase() === start1.toLowerCase()) || (myCity.s
 // 2. 
 
 let i = 0;
-let array1 = [5, 16, 50]
+let array1 = [5, 16, 50];
 let sum1 = 0;
 for (i = 0; i < array1.length; i++) {
     sum1 = sum1 + array1[i];
@@ -28,9 +28,9 @@ console.log(wholeName);
 
 // 4. 
 
-/* let endNumber1 = 1000;
+let endNumber1 = 1000;
 let divider = 100;
-for (i = 0; i <= endNumber1; i++) {
+/* for (i = 0; i <= endNumber1; i++) {
     if (i % divider === 0) {
         console.log(true);
     } else console.log(false); 
@@ -75,7 +75,7 @@ if (num2 % 2 === 0) {
 // 7. 
 
 let wholeRadius = 360;
-let angles = [100, 170]
+let angles = [100, 170];
 let sumOfAngles = 0;
 let right_angle = 90;
 for (i = 0; i < angles.length; i++) {
@@ -93,7 +93,7 @@ if (wholeRadius - sumOfAngles > right_angle) {
 // 8. 
 
 
- let someNames = `hannah leon marcel`;
+let someNames = `hannah leon marcel`;
 let array3 = someNames.split(` `);
 let firstUpper = [];
 
@@ -101,7 +101,7 @@ for (i = 0; i < array3.length; i++) {
     firstUpper.push(array3[i][0].toUpperCase()+array3[i].slice(1));
 }
 
-someNames = firstUpper.join(` `)
+someNames = firstUpper.join(` `);
 console.log(someNames);
 
 
